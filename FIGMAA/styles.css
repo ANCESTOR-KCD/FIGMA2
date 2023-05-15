@@ -1,0 +1,168 @@
+body{
+    padding:0;
+    margin:0;
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p{position: relative;
+top:-15px;
+text-align: center;
+}
+
+h4{margin-left: 40px;
+    margin-top: 60px;
+}
+
+#black,h3{text-align: left;
+    margin-left: 209px;
+    margin-right: 209px;
+}
+
+#try{margin-left: 40px;}
+
+ #tag{margin-top: -12px;} 
+
+nav{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 40px;
+    justify-content: space-around;
+
+}
+
+.black-2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+ul{list-style: none;}
+
+
+hr{
+    height: 4px;
+    background-color: rgb(238, 238, 238);
+    border: none;
+
+}
+
+.logo{align-items: flex-start;
+width: 150px;
+height: 20px;}
+
+.demo{align-items: flex-end;
+    width: 150px;
+    height: 40px;
+    position: relative;
+    top: -10px;
+}
+
+h1{text-align: center;
+margin-top: 40px;
+font-size: 40px;
+margin-bottom: 40px;}
+
+.thirdphase{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top:400px;
+    right:0;
+    left:0;
+    
+}
+.home{color: #065666;}
+
+button{background-color: transparent;
+width: 300px;
+height: 40px;
+position: absolute;
+right: 470px;
+border-radius: 10px;
+width: 200px;
+height: 50px;
+border-color: #a9f881;
+color:#6FC247 ;
+border: 1px solid;}
+
+.demo-2{position: absolute;
+left: 450px;
+width: 200px;
+height: 50px;}
+
+.writing{
+    position: absolute;
+    top: 100px;
+    right:0;
+    left:0;
+}
+
+.fourthpart{position: absolute;
+right:200px ;
+
+top: 450px;}
+
+.writing-2{
+    text-align: center;
+    position: relative;
+    top:830px;
+}
+
+.icon-pack
+{margin-top: 830px;
+display: grid;
+grid-template-columns: 250px 250px 250px 250px;
+
+grid-gap:10px;
+align-items:center;
+margin-left:60px;
+color:black;
+position: relative;
+left: 150px;
+}
+
+.icon-pack img{
+    display:inline-block;
+    height:70px;
+    width:150px;
+    
+    background-color:#F9F9F9;;
+}
+
+.black{
+   
+    background-color: black;
+    color: #F9F9F9;
+}
+
+.img-right{float: right;
+height:650px;
+width:500px;
+margin-right: 150px;
+position: absolute;
+top: 1620px;
+right: 0;
+}
+
+
+
+.last-1{position:relative;
+top: -28px;}
+
+ .last{ 
+    margin-top: 90px;
+}
+
+.last-2,.last-3,.last-4{
+    position: relative;
+    left:20px
+}
+
+.finale{position: absolute;
+bottom: -1800px;
+left: 550px;
+}
