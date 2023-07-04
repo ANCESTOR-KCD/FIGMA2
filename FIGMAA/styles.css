@@ -1,168 +1,392 @@
-body{
+*{
     padding:0;
     margin:0;
-    background-color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
      Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-p{position: relative;
-top:-15px;
+nav a{color: black;}
+
+nav a.active{color: #065666;}
+
+.writing-2>p{
+    margin-top: 2rem;
+}
+
+.writing>p{position: relative;
+top:-1rem;
 text-align: center;
 }
 
-h4{margin-left: 40px;
-    margin-top: 60px;
+h4{margin-left: 6rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
 }
 
-#black,h3{text-align: left;
-    margin-left: 209px;
-    margin-right: 209px;
+h3{
+    margin-bottom: 1rem;
+    margin-left: 12rem;
+}
+.black1>p{
+    margin-left: 12rem;
+    text-align: left;
 }
 
-#try{margin-left: 40px;}
+.last-1>h3{margin-left: 6rem;}
 
- #tag{margin-top: -12px;} 
+ #tag{margin-left: 4rem;
+      margin-top: -1rem;
+} 
 
 nav{
     display: flex;
-    flex-direction: row;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 2.5rem;
     justify-content: space-around;
-
+    
 }
+
+nav>.div,p{margin-left: 1.5rem;}
 
 .black-2{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    
+    margin-bottom: 2rem;
 }
 
 ul{list-style: none;}
 
 
 hr{
-    height: 4px;
+    height: 0.25rem;
     background-color: rgb(238, 238, 238);
     border: none;
 
 }
 
-.logo{align-items: flex-start;
-width: 150px;
-height: 20px;}
+.logo{
+width: 9rem;
+height: 1.3rem;}
 
-.demo{align-items: flex-end;
-    width: 150px;
-    height: 40px;
+.demo{
+    width: 9.4rem;
+    height:2.5rem;
     position: relative;
-    top: -10px;
+    top: -0.6rem;
 }
 
 h1{text-align: center;
-margin-top: 40px;
-font-size: 40px;
-margin-bottom: 40px;}
+margin-top: 2.5rem;
+font-size: 2.5rem;
+margin-bottom: 2.5rem;}
 
 .thirdphase{
     display: flex;
-    flex-direction: row;
     align-items: center;
-    position: absolute;
-    top:400px;
-    right:0;
-    left:0;
-    
+    position: relative;
+    top:20rem;   
 }
-.home{color: #065666;}
-
+ 
 button{background-color: transparent;
-width: 300px;
-height: 40px;
-position: absolute;
-right: 470px;
-border-radius: 10px;
-width: 200px;
-height: 50px;
+width: 18.8rem;
+height: 2.5rem;
+position: relative;
+left: 30rem;
+border-radius: 0.6rem;
+width: 12.5rem;
+height:3.2rem;
 border-color: #a9f881;
 color:#6FC247 ;
-border: 1px solid;}
+border: 0.1rem solid;}
 
-.demo-2{position: absolute;
-left: 450px;
-width: 200px;
-height: 50px;}
+.demo-2{position: relative;
+left: 27rem;
+width: 12.5rem;
+height: 3.2rem;}
 
 .writing{
-    position: absolute;
-    top: 100px;
-    right:0;
-    left:0;
+    position: relative;
+    top: 4rem;
+    
 }
 
-.fourthpart{position: absolute;
-right:200px ;
-
-top: 450px;}
+.fourthpart{position: relative;
+right:2.7rem ;
+top:24rem;
+margin-left: 6rem;}
 
 .writing-2{
     text-align: center;
     position: relative;
-    top:830px;
+    top:25rem;
 }
 
 .icon-pack
-{margin-top: 830px;
+{margin-top: 26rem;
 display: grid;
-grid-template-columns: 250px 250px 250px 250px;
-
-grid-gap:10px;
+grid-template-columns: 15rem 15rem 15rem 15rem;
+grid-gap:2rem;
 align-items:center;
-margin-left:60px;
-color:black;
-position: relative;
-left: 150px;
+margin-left:12rem;
+margin-bottom: 1rem;
+
 }
 
 .icon-pack img{
     display:inline-block;
-    height:70px;
-    width:150px;
+    height:4.4rem;
+    width:9.4rem;
     
     background-color:#F9F9F9;;
 }
 
 .black{
-   
-    background-color: black;
+     background-color: black;
     color: #F9F9F9;
 }
 
-.img-right{float: right;
-height:650px;
-width:500px;
-margin-right: 150px;
-position: absolute;
-top: 1620px;
-right: 0;
+.img-right{
+float: right;
+height:auto;
+width:40%;
+margin-right:3rem;
+position: relative;
+bottom: 40rem;
 }
 
 
 
 .last-1{position:relative;
-top: -28px;}
+top: -1.8rem;}
 
  .last{ 
-    margin-top: 90px;
+    margin-top: 5.6rem;
 }
 
 .last-2,.last-3,.last-4{
     position: relative;
-    left:20px
+    left:1.25rem
 }
 
-.finale{position: absolute;
-bottom: -1800px;
-left: 550px;
+.finale{
+    position: relative;
+    top: 10rem;
+    left: 33rem;
 }
+
+@media screen and (max-width:620px){
+    nav{display: flex;
+       justify-content: space-between;
+       
+    }
+    
+    .demo-2 {
+        position:relative;
+        left:4rem;
+    }
+    
+    button{
+        position: relative;
+        left:10rem;
+    
+}
+    
+    .fourthpart{
+        width: 90%;
+        height: auto;
+        position: relative;
+        right:4.5rem;
+    }
+    
+    .logo{max-width: 6rem;}
+    .demo{max-width: 9rem; }
+    
+    .writing-2>p{margin: 0 auto;}
+
+    .icon-pack{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left:3rem ;
+    }
+
+    .black1{
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            right: 9rem;
+    }
+
+    .black-2{display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+    .last{display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        left: 4rem;}
+
+    .img-right{position: relative;
+        top: 6rem;
+    left: 6rem;}
+
+    .finale{position: relative;
+        top: 15rem;
+        left: 10rem;}
+    }
+
+    @media screen and (max-width:480px){
+        nav{display: flex;
+           justify-content: space-between;
+           
+        }
+        .demo{width: 5rem;
+        height: 2.3rem;
+        position: relative;
+        bottom:0;
+        }
+
+        .logo{width: 4rem;}
+
+
+        
+        .demo-2 {
+            position:relative;
+            left:3rem;
+            width:10rem;
+        }
+        
+        button{
+            position: relative;
+            left:8rem;
+            width:10rem;
+        
+    }
+        
+        .fourthpart{
+            width: 90%;
+            height: auto;
+            position: relative;
+            right:4.5rem;
+        }
+        
+    
+        
+        .writing-2>p{margin: 0 auto;}
+    
+        .icon-pack{
+            display: flex;
+            flex-wrap: wrap;
+            margin-left:5rem ;
+        }
+    
+        .black1{
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                right: 9rem;
+        }
+    
+        .black-2{display: flex;
+        flex-direction: column;
+        align-items: center;}
+    
+        .last{display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            left: 1rem;}
+    
+        .img-right{position: relative;
+            top: 6rem;
+        left: 8rem;}
+    
+        .finale{position: relative;
+            top: 10rem;
+            left: 9rem;
+            width:10rem}
+
+
+            .success>h4{margin-left:8rem ;}
+            .success>ul{margin-left: 2rem;}
+        }
+
+        @media screen and (min-width:768px) and (max-width:1024px){
+            nav{display: flex;
+               justify-content: space-between;
+               
+            }
+            .demo{width: 10rem;
+            height: 2.3rem;
+            position: relative;
+            bottom:0;
+            }
+    
+            .logo{width: 8rem;}
+    
+    
+            
+            .demo-2 {
+                position:relative;
+                left:9rem;
+                width:10rem;
+            }
+            
+            button{
+                position: relative;
+                left:20rem;
+                width:10rem;
+            
+        }
+            
+            .fourthpart{
+                width: 90%;
+                height: auto;
+                position: relative;
+                right:4.5rem;
+            }
+            
+        
+            
+            .writing-2>p{margin: 0 auto;}
+        
+            .icon-pack{
+                display: flex;
+                flex-wrap: wrap;
+                margin-left:8rem ;
+            }
+        
+            .black1{
+                    display: flex;
+                    flex-direction: column;
+                    position: relative;
+                    right: 9rem;
+            }
+        
+            .black-2{display: flex;
+            flex-direction: column;
+            align-items: center;}
+        
+            .last{display: flex;
+                flex-direction: column;
+                justify-content: center;
+                position: relative;
+                left: 9rem;}
+        
+            .img-right{position: relative;
+                top: 6rem;
+                width: 60%;}
+        
+            .finale{position: relative;
+                top: 10rem;
+                left: 15rem;
+                width:17rem}
+    
+    
+                .success>h4{margin-left:8rem ;}
+                .success>ul{margin-left: 2rem;}
+            }
+
+       
+    
+      
